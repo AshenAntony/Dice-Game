@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Merienda&family=Quantico&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Merienda&family=Oswald:wght@400;500&family=Quantico&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Dice Game</title>
+    <link rel="icon" type="image/x-icon" href="./images/dice5.png" />
+  </head>
+  <body>
+    <h1 id="h">Dice Game</h1>
+
+    <div class="container">
+      <div class="left-Container" id="ch-L-color">
+        <p class="Player1">Player 1</p>
+        <hr />
+        <p class="value1"></p>
+      </div>
+      <div class="right-Container" id="ch-R-color">
+        <p class="Player2">Player 2</p>
+        <hr />
+        <p class="value2"></p>
+      </div>
+      <div class="dice">
+        <img src="./images/dice6.png" alt="dice" class="img1" />
+      </div>
+      <div class="dice">
+        <img src="./images/dice6.png" alt="dice" class="img2" />
+      </div>
+      <div>
+        <button type="button" onclick="editName()" id="btn1" class="btn">
+          Player Names
+        </button>
+      </div>
+      <div>
+        <button type="button" onclick="rollTheDice()" class="btn">
+          Start Rolling !
+        </button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

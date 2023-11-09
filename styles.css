@@ -1,0 +1,89 @@
+body{
+    background-image: linear-gradient( 109.6deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% );
+
+}
+
+.container{
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 0px 5px 5px 5px 0px; 
+}
+
+.left-Container{
+    position: absolute;
+    top: 20%;
+    left: 5px;
+    height: 30vh;
+    text-align: center;
+    background-color: #efeef5;
+    width: 20%;
+    border-radius:5%;
+    box-shadow: 5px 5px 5px red;
+}
+
+.right-Container{
+    position: absolute;
+    top: 20%;
+    right: 5px;
+    height: 30vh;
+    text-align: center;
+    background-color: #efeef5;
+    width: 20%;
+    border-radius:  5%;
+    box-shadow: -5px 5px 5px red;
+    
+}
+
+.dice{
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;;
+    font-family: 'Quantico', sans-serif;
+}
+
+p{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif
+}
+
+img{
+    width: 70%;
+}
+
+.Player1{
+    font-weight: bold;
+}
+
+.Player2{
+    font-weight: bold;
+}
+
+button{
+    width: 20%;
+    height: 50px;
+    margin-top: 4%;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);    
+}
+
